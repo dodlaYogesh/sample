@@ -10,7 +10,7 @@ def home(request):
 def college(request):
     return HttpResponse('Welcome to my College')
 
-def html(request):
+def html1(request):
     data=list.objects.all()
 
     pro={

@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 from products.views import home
 from products.views import college
-from products.views import html
+from products.views import html1
+from orders.views import html2
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/',home),
     path('college/',college),
-    path('details/',html)
+    path('details1/',html1),
+    path('details2/',html2)
 ]
