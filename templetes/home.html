@@ -12,7 +12,7 @@
         Welcome To Home
     </h1>
     {% for i in d %}
-    <ol>
+    <ul>
         <li>
             name : {{i.name}}
         </li>
@@ -20,7 +20,9 @@
             age :{{i.age}}
         </li>
         <li>address :{{i.address}} </li>
-    </ol>
+        <li>added_on :{{i.time
+            }} </li>
+    </ul>
     {% endfor %}
     
 </body>
